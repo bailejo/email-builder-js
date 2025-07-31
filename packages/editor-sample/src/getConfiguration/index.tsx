@@ -5,7 +5,7 @@ import POST_METRICS_REPORT from './sample/post-metrics-report';
 import RESERVATION_REMINDER from './sample/reservation-reminder';
 import RESET_PASSWORD from './sample/reset-password';
 import RESPOND_TO_MESSAGE from './sample/respond-to-message';
-import SUBSCRIPTION_RECEIPT from './sample/subscription-receipt';
+import NEWSLETTER from './sample/newsletter';
 import WELCOME from './sample/welcome';
 
 export default function getConfiguration(template: string) {
@@ -26,8 +26,8 @@ export default function getConfiguration(template: string) {
         return RESET_PASSWORD;
       case 'respond-to-message':
         return RESPOND_TO_MESSAGE;
-      case 'subscription-receipt':
-        return SUBSCRIPTION_RECEIPT;
+      case 'newsletter':
+        return NEWSLETTER;
     }
   }
 
